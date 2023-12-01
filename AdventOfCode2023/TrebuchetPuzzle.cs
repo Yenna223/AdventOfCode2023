@@ -42,7 +42,6 @@
             .Sum();
         }
 
-
         private int GetNumberV1(ReadOnlySpan<char> line)
         {
             var firstIndex = line.IndexOfAny(Numbers);
@@ -50,7 +49,6 @@
 
             return (line[firstIndex] - '0') * 10 + (line[lastIndex] - '0');
         }
-
 
         private int GetNumberV2(ReadOnlySpan<char> line)
         {
@@ -80,7 +78,6 @@
                     lastNumber = AllNumbers[numberKey];
                 }
             }
-
 
             return firstNumber * 10 + lastNumber;
         }
