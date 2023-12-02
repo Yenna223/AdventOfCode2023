@@ -1,8 +1,14 @@
 ﻿using AdventOfCode2023;
+using BenchmarkDotNet.Running;
 
-var lines = File.ReadAllLines(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "inputs", "input1.txt"));
-var puzzle = new TrebuchetPuzzle();
 
-Console.WriteLine(puzzle.SolveV1(lines));
-Console.WriteLine(puzzle.SolveV2(lines));
+//var summary = BenchmarkRunner.Run<CubeConundrumPuzzle>();
 
+
+var puzzle = new CubeConundrumPuzzle();
+
+Console.WriteLine(puzzle.SolveV1());
+Console.WriteLine(puzzle.SolveV2());
+
+
+Console.ReadLine();
