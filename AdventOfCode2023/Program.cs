@@ -2,10 +2,9 @@
 using BenchmarkDotNet.Running;
 
 
-//var summary = BenchmarkRunner.Run<CubeConundrumPuzzle>();
+//var summary = BenchmarkRunner.Run<GearRatiosPuzzle>();
 
-
-var puzzle = new CubeConundrumPuzzle();
+var puzzle = new GearRatiosPuzzle();
 
 Console.WriteLine(puzzle.SolveV1());
 Console.WriteLine(puzzle.SolveV2());
