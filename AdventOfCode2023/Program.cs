@@ -2,12 +2,12 @@
 using BenchmarkDotNet.Running;
 
 
-var summary = BenchmarkRunner.Run<GearRatiosPuzzle>();
+//var summary = BenchmarkRunner.Run<IfYouGiveASeedAFertilizerPuzzle>();
 
-//var puzzle = new ScratchcardsPuzzle();
+var puzzle = new IfYouGiveASeedAFertilizerPuzzle();
 
-//Console.WriteLine(puzzle.SolveV1());
-//Console.WriteLine(puzzle.SolveV2());
+Console.WriteLine(puzzle.SolveV1());
+Console.WriteLine(puzzle.SolveV2());
 
 
 Console.ReadLine();
