@@ -4,7 +4,7 @@ using BenchmarkDotNet.Running;
 
 //var summary = BenchmarkRunner.Run<IfYouGiveASeedAFertilizerPuzzle>();
 
-var puzzle = new IfYouGiveASeedAFertilizerPuzzle();
+var puzzle = new WaitForItPuzzle();
 
 Console.WriteLine(puzzle.SolveV1());
 Console.WriteLine(puzzle.SolveV2());
