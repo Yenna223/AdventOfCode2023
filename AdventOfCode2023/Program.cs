@@ -4,9 +4,9 @@ using BenchmarkDotNet.Running;
 
 //var summary = BenchmarkRunner.Run<IfYouGiveASeedAFertilizerPuzzle>();
 
-var puzzle = new WaitForItPuzzle();
+var puzzle = new HauntedWastelandPuzzle();
 
-Console.WriteLine(puzzle.SolveV1());
+//Console.WriteLine(puzzle.SolveV1());
 Console.WriteLine(puzzle.SolveV2());
 
 
