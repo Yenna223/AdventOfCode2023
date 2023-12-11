@@ -4,7 +4,7 @@ using BenchmarkDotNet.Running;
 
 //var summary = BenchmarkRunner.Run<IfYouGiveASeedAFertilizerPuzzle>();
 
-var puzzle = new MirageMaintenance();
+var puzzle = new CosmicExpansionPuzzle();
 
 Console.WriteLine(puzzle.SolveV1());
 Console.WriteLine(puzzle.SolveV2());
