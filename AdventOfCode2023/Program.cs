@@ -4,9 +4,9 @@ using BenchmarkDotNet.Running;
 
 //var summary = BenchmarkRunner.Run<IfYouGiveASeedAFertilizerPuzzle>();
 
-var puzzle = new CosmicExpansionPuzzle();
+var puzzle = new ParabolicReflectorDishPuzzle();
 
-Console.WriteLine(puzzle.SolveV1());
+//Console.WriteLine(puzzle.SolveV1());
 Console.WriteLine(puzzle.SolveV2());
 
 
